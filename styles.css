@@ -4,8 +4,27 @@ html {
     color: white;
 }
 
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.home h1 {
+    padding-bottom: 36px;
+}
+
+li {
+    padding-bottom: 20px;
+}
+
 .no-dots {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .list a {
