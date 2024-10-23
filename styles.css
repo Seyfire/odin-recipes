@@ -1,33 +1,44 @@
-html {
-    font-family: Tahoma, Verdana, sans-serif;
-    background-color: #312c3d;
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    margin-left: 15%;
-    margin-right: 15%;
+html {
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: #2f3a30;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 900;
 }
 
-.home h1 {
-    padding-bottom: 36px;
+.title {
+    padding: 24px 24px;
+    background-color: #b6cfb8;
+    color: #2a3527;
 }
 
-li {
-    padding-bottom: 20px;
+.home .title {
+    margin-bottom: 40px;
 }
 
-.no-dots {
+.recipes {
+    margin: 0 25%;
+}
+
+.recipes li {
+    background-color: #b6cfb8;
+    color:#2a3527;
+    font-size: 24px;
+    padding: 24px;
+    margin-bottom: 16px;
+    text-align: center;
     list-style-type: none;
-    padding-left: 0;
 }
 
-.list a {
+.recipes a {
     text-decoration: none;
-    color: white;
+    color:#2a3527;
 }
